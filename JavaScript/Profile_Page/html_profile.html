@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> DOM Manipulation HTML Page </title>
+        <link rel = "stylesheet" href = "css_profile.css">
+        <script src = "js_profile.js" defer></script>
+    </head>
+    <body>
+        <h1> Profile Page </h1>
+
+        <h3> Data Fill Please: </h3>
+
+        <form id = "profile_id">
+            <ul class = "data">
+                <li>
+                    <label>
+                        Name: <input type = "text" id = "name_id" name = "name" placeholder = "Eg: ABCD">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                    Age: <input type = "number" id = "age_id" name = "age" placeholder = "Eg: 69">
+                    </label>
+                </li>
+                <li>
+                    <label for = "course"> Course: </label>
+                    <select id = "course" name = "course">
+                        <option value = "CS"> Computer Science </option>
+                        <option value = "AI&DS"> Artificial Intelligence & Data Science </option>
+                        <option value = "AI&ML"> Artificial Intelligence & Machine Learning </option>
+                        <option value = "Fin"> Finance </option>
+                    </select>
+                    <button type = "button" onclick = "updateCourse()"> Update </button>
+                </li>
+                <li>
+                    <label>
+                        Hobby:
+                        <textarea name = "hobby" id = "hobby_id" rows = "1" cols = "15" placeholder = "Eg: Mechanical"></textarea>
+                        <button type = "button" onclick = "addHobbyList()"> Add Hobby </button>
+                        <ul id = "hobby_list">
+                        </ul>
+                    </label>
+                </li>
+            </ul>
+            <p> Submit: <input type = "submit" value = "Login"> </p>
+        </form>
+        <button onclick = "changeColor()"> WANNA SEE MAGIC ??? </button>
+
+        <footer> @2025 Zatch Profiling </footer>
+    </body>
+</html>
