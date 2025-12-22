@@ -1,0 +1,4 @@
+*** Confidential Diary ***
+Day 1: Started my secret diary.
+
+Day 2: Learned about file handling in Python.
