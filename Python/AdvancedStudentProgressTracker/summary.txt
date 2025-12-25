@@ -1,0 +1,8 @@
+=== Summary Report ===
+Performance Categories:
+  Outstanding: 0 students
+  Excellent: 7 students
+  Good: 0 students
+  Needs Improvement: 0 students
+
+Top Student: Echo with average 85.17

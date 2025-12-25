@@ -1,0 +1,78 @@
+*** Student Progress Tracker V2 ***
+Alpha ;
+	Subjects and Marks:
+	Chemistry (82) : EXCELLENT score
+	English (95) : OUTSTANDING score
+	Hindi (76) : EXCELLENT score
+	Japanese (89) : EXCELLENT score
+	Math (91) : OUTSTANDING score
+	Physics (75) : EXCELLENT score
+Average: Total -> 508 marks : 600, Average -> 84.66666666666667 marks
+Attendance: Present Days: 90, Total Days: 100 => ELLIGIBLE
+
+Bravo ;
+	Subjects and Marks:
+	Chemistry (98) : OUTSTANDING score
+	English (84) : EXCELLENT score
+	Hindi (56) : GOOD score
+	Japanese (67) : GOOD score
+	Math (89) : EXCELLENT score
+	Physics (69) : GOOD score
+Average: Total -> 463 marks : 600, Average -> 77.16666666666667 marks
+Attendance: Present Days: 78, Total Days: 100 => ELLIGIBLE
+
+Charlie ;
+	Subjects and Marks:
+	Chemistry (90) : OUTSTANDING score
+	English (85) : EXCELLENT score
+	Hindi (77) : EXCELLENT score
+	Japanese (93) : OUTSTANDING score
+	Math (88) : EXCELLENT score
+	Physics (67) : GOOD score
+Average: Total -> 500 marks : 600, Average -> 83.33333333333333 marks
+Attendance: Present Days: 95, Total Days: 100 => ELLIGIBLE
+
+Delta ;
+	Subjects and Marks:
+	Chemistry (72) : GOOD score
+	English (80) : EXCELLENT score
+	Hindi (85) : EXCELLENT score
+	Japanese (91) : OUTSTANDING score
+	Math (69) : GOOD score
+	Physics (95) : OUTSTANDING score
+Average: Total -> 492 marks : 600, Average -> 82.0 marks
+Attendance: Present Days: 82, Total Days: 100 => ELLIGIBLE
+
+Echo ;
+	Subjects and Marks:
+	Chemistry (88) : EXCELLENT score
+	English (92) : OUTSTANDING score
+	Hindi (79) : EXCELLENT score
+	Japanese (84) : EXCELLENT score
+	Math (90) : OUTSTANDING score
+	Physics (78) : EXCELLENT score
+Average: Total -> 511 marks : 600, Average -> 85.16666666666667 marks
+Attendance: Present Days: 97, Total Days: 100 => ELLIGIBLE
+
+Foxtrot ;
+	Subjects and Marks:
+	Chemistry (65) : GOOD score
+	English (70) : GOOD score
+	Hindi (89) : EXCELLENT score
+	Japanese (78) : EXCELLENT score
+	Math (83) : EXCELLENT score
+	Physics (84) : EXCELLENT score
+Average: Total -> 469 marks : 600, Average -> 78.16666666666667 marks
+Attendance: Present Days: 75, Total Days: 100 => ELLIGIBLE
+
+Golf ;
+	Subjects and Marks:
+	Chemistry (98) : OUTSTANDING score
+	English (87) : EXCELLENT score
+	Hindi (65) : GOOD score
+	Japanese (68) : GOOD score
+	Math (84) : EXCELLENT score
+	Physics (69) : GOOD score
+Average: Total -> 471 marks : 600, Average -> 78.5 marks
+Attendance: Present Days: 78, Total Days: 100 => ELLIGIBLE
+
