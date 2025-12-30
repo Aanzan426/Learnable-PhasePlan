@@ -21,9 +21,7 @@ def initial (filename):
                 g.write("*** Transport Report ***\n")
             with open ("datacenter_report.txt", "w+") as h:
                 h.write("*** Datacenter Report ***\n")
- 
-    
- 
+
 
 
 # Energy Analytics
@@ -34,16 +32,20 @@ electricity_consumption = {
 }
 
 def building_classification (parameter):
+    report_lines = []
     for item, values in parameter.items():
         res = calculate_avg (values)
         resnec = calculate_growth_rate (res, len(values))
-        print(f"Power consumption of {item} is {sum(values)}: Average {res} kWH, Growth Rate of {resnec} kWH")
+        line = (f"Power consumption of {item} is {sum(values)}: Average {res} kWH, Growth Rate of {resnec} kWH")
+        print(line)
+        report_lines.append(line)
+    return "\n".join(report_lines)
 
 def calculate_avg (data):
     try:
         average = sum(data) / len(data)
         return average
-    except ZeroDivisionError():
+    except ZeroDivisionError:
         print("Couldnt calcualte Average. Try Again.")
 
 def calculate_growth_rate(data, num):
@@ -104,7 +106,7 @@ def factory_classification (parameter):
                     line = (f"{item} is Classified under: Non-Compliant catgory ({value} tonnes)")
                 total += value
                 num += 1
-            except ValueError(value):
+            except ValueError:
                 print("Invalid Input Type. Try Again.")
         print(line)
         report_lines.append(line)
