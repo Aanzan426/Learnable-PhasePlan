@@ -1,0 +1,7 @@
+*** Waste Report ***
+[Organic] Composted 120 kg (Toxicity 5)
+[Recyclable] Recycled 80 kg with efficiency (Toxicity 6)
+[Hazardous] Disposed 40 kg with safety cost (Toxicity 4)
+[Organic] Composted 95 kg (Toxicity 3)
+[Recyclable] Recycled 60 kg with efficiency (Toxicity 2)
+

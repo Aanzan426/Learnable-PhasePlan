@@ -1,0 +1,5 @@
+Zone North expended 50000 litres of water => Above Critical Level
+Zone South expended 42000 litres of water => Within Permissible Level
+Zone East expended 61000 litres of water => Above Critical Level
+Zone West expended 47000 litres of water => Within Permissible Level
+

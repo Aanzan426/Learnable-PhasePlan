@@ -1,0 +1,6 @@
+*** Energy Report ***
+Power generated per hour => 8
+One Unit of Wind => 0
+Mass of Total Volume of Water => 2197000
+
+Building Electricity Consumption: None

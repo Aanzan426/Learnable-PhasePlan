@@ -1,0 +1,82 @@
+=== Global Sustainability Report ===
+
+
+--- Energy ---
+*** Energy Report ***
+Power generated per hour => 8
+One Unit of Wind => 0
+Mass of Total Volume of Water => 2197000
+
+Building Electricity Consumption: None
+
+--- Emission ---
+Factory_4 is Classified under: Non-Compliant catgory (760 tonnes)
+Overall Factory Average Emission is 294.38 tonnes
+
+
+--- Water ---
+Zone North expended 50000 litres of water => Above Critical Level
+Zone South expended 42000 litres of water => Within Permissible Level
+Zone East expended 61000 litres of water => Above Critical Level
+Zone West expended 47000 litres of water => Within Permissible Level
+
+
+
+--- Aqi ---
+Air Quality Advisories: City_X: 100: POOR
+Air Quality Advisories: City_Y: 82: MODERATE
+Air Quality Advisories: City_Z: 175: HAZARDOUS
+
+
+
+--- Waste ---
+*** Waste Report ***
+[Organic] Composted 120 kg (Toxicity 5)
+[Recyclable] Recycled 80 kg with efficiency (Toxicity 6)
+[Hazardous] Disposed 40 kg with safety cost (Toxicity 4)
+[Organic] Composted 95 kg (Toxicity 3)
+[Recyclable] Recycled 60 kg with efficiency (Toxicity 2)
+
+
+
+--- Climate ---
+Mon: Temp=28°C, Rain=5mm
+Tue: Temp=30°C, Rain=0mm
+Wed: Temp=27°C, Rain=12mm
+Thu: Temp=25°C, Rain=20mm
+Fri: Temp=29°C, Rain=2mm
+
+Anomalies:
+- Tue unusually hot (30°C)
+- Tue no rainfall
+- Thu unusually cold (25°C)
+- Thu heavy rainfall (20 mm)
+
+
+--- Transport ---
+Bike   | Fuel Efficiency: 0.30 | Carbon Footprint: 24.00
+Car    | Fuel Efficiency: 1.33 | Carbon Footprint: 216.00
+Bus    | Fuel Efficiency: 1.67 | Carbon Footprint: 270.00
+
+
+--- Datacenter ---
+
+** Datacenter Report ***
+
+
+=== Composite Summary ===
+High Performance Entities: 0
+Moderate Performance Entities: 1
+Low Performance Entities: 2
+
+Top 3 Sustainable Performers:
+- waste_report.txt (score proxy 272)
+- water_report.txt (score proxy 271)
+- climate_report.txt (score proxy 241)
+
+Anomalies:
+No anomalies detected.
+
+Recommendations:
+⚠ Strengthen policies in low-performing domains.
+⚠ Invest more in moderate performers to push them into high category.

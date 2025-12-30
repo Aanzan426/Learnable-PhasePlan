@@ -1,0 +1,4 @@
+Air Quality Advisories: City_X: 100: POOR
+Air Quality Advisories: City_Y: 82: MODERATE
+Air Quality Advisories: City_Z: 175: HAZARDOUS
+

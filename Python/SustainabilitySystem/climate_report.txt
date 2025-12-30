@@ -1,0 +1,11 @@
+Mon: Temp=28°C, Rain=5mm
+Tue: Temp=30°C, Rain=0mm
+Wed: Temp=27°C, Rain=12mm
+Thu: Temp=25°C, Rain=20mm
+Fri: Temp=29°C, Rain=2mm
+
+Anomalies:
+- Tue unusually hot (30°C)
+- Tue no rainfall
+- Thu unusually cold (25°C)
+- Thu heavy rainfall (20 mm)
