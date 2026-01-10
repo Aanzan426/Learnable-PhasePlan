@@ -80,7 +80,7 @@ This distinction is critical to prevent users from directly accessing processing
 - Even if that was never intended
 
 #### Example Conversion
-<script> → &lt;script&gt;
+<script> → "&lt;script&gt";
 
 ---
 
@@ -147,3 +147,4 @@ This project is not about building a feature — it is about **understanding fun
 These concepts apply far beyond this project and remain valid regardless of frameworks or language trends.
 
 ---
+
