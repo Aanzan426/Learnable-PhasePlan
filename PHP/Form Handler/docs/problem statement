@@ -1,10 +1,10 @@
 Basic HTML Form Handler
 
-### Problem Statement
+Problem Statement
 
 Build a simple web form that collects a user’s name and email, applies basic styling, and processes the data using PHP to display a confirmation message.
 
-### Requirements
+Requirements
 
 - Use semantic HTML form elements with proper input types.
     
@@ -15,7 +15,7 @@ Build a simple web form that collects a user’s name and email, applies basic s
 - Escape output to prevent XSS.
     
 
-### Edge Cases
+Edge Cases
 
 - Empty input submission
     
@@ -24,6 +24,10 @@ Build a simple web form that collects a user’s name and email, applies basic s
 - Page refresh after submission
     
 
-### Deliverables
+Deliverables
 
-- `form.html`, `style.css`, `process.php`
+- form.html
+
+- style.css
+
+- process.php
