@@ -1,0 +1,84 @@
+/* ===== BASIC PAGE STYLES ===== */
+/* Applies to the entire page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* ===== HEADER SECTION ===== */
+/* Styles the top section containing name and navigation */
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Name */
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Role / title */
+header p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* ===== NAVIGATION ===== */
+/* Basic vertical navigation (mobile-first) */
+
+nav a {
+    display: block;           /* Makes each link appear on a new line */
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
+
+/* ===== MAIN SECTIONS ===== */
+/* About, Skills, Contact */
+
+section {
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Section headings */
+section h2 {
+    margin-top: 0;
+}
+
+/* ===== SKILLS LIST ===== */
+/* Styles unordered lists inside the Skills section */
+
+#skills ul {
+    padding-left: 20px;
+}
+
+/* ===== CONTACT SECTION ===== */
+
+#contact ul {
+    list-style-type: none;   /* Removes bullets */
+    padding-left: 0;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+}
+
+/* ===== SIMPLE RESPONSIVE CHANGE ===== */
+/* On wider screens, navigation becomes horizontal */
+
+@media (min-width: 700px) {
+    nav a {
+        display: inline-block;   /* Links appear side by side */
+        margin: 0 10px;
+    }
+}

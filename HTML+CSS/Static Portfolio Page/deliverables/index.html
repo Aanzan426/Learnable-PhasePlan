@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Static Portfolio Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ❌ BEFORE: No semantic structure -->
+    <!-- ✅ AFTER: Use header for identity + navigation -->
+    <header>
+        <h1>Deepaansh Sial</h1>
+        <p>Web Developer</p>
+
+        <!-- ❌ BEFORE: No navigation -->
+        <!-- ✅ AFTER: Navigation required by problem statement -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ❌ BEFORE: Inputs used to collect personal info -->
+    <!-- ✅ AFTER: Static display using semantic section -->
+    <section id="about">
+        <h2>About</h2>
+
+        <!-- ❌ BEFORE: <input> + <textarea> -->
+        <!-- ✅ AFTER: Content is displayed, not collected -->
+        <p>
+            I am a web developer learning HTML, CSS, JavaScript, and PHP.
+            I enjoy building clean, secure, and structured web applications.
+        </p>
+    </section>
+
+    <!-- ❌ BEFORE: <select>, <optgroup>, broken syntax -->
+    <!-- ✅ AFTER: Skills displayed as lists -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <h3>Languages</h3>
+        <ul>
+	    <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>SQL</li>
+        </ul>
+
+        <h3>Tools</h3>
+        <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Linux (Opensuse Leap 15.6, Ubuntu 24.04.3 LTS)</li>
+        </ul>
+    </section>
+
+    <!-- ❌ BEFORE: Form inputs for contact info -->
+    <!-- ✅ AFTER: Static professional contact details -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+
+        <ul>
+            <li>Email: ***@example.com</li>
+            <li>GitHub: https://github.com/Aanzan426	</li>
+        </ul>
+    </section>
+
+    <footer>
+        © Static Portfolio Page
+    </footer>
+
+</body>
+</html>
