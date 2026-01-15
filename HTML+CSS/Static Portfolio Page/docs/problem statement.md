@@ -1,8 +1,8 @@
-\# Difficulty 2 — Static Portfolio Page
+# Difficulty 2 — Static Portfolio Page
 
 
 
-\## Problem Statement
+## Problem Statement
 
 
 
@@ -14,7 +14,7 @@ Create a personal portfolio webpage with clear navigation and a responsive layou
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -30,7 +30,7 @@ Create a personal portfolio webpage with clear navigation and a responsive layou
 
 
 
-\## Edge Cases
+## Edge Cases
 
 
 
@@ -44,13 +44,14 @@ Create a personal portfolio webpage with clear navigation and a responsive layou
 
 
 
-\## Deliverables
+## Deliverables
 
 
 
 \- `index.html`
 
 \- `style.css`
+
 
 
 
