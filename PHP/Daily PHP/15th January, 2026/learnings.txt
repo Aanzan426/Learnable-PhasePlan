@@ -1,0 +1,8 @@
+1. php developers prefer using single quotes over double quotes even though the language supports both the types:
+	- For example: echo '<a href="http://www.sitepoint.com">Click here</a>';
+	- If double quotes were used here, we’d need to tell PHP that the quote after href= is not the end of the string by placing a \ before it (known as an escape character) and do the same with any quotes we actually want to send to the browser as part of the HTML: echo "<a href=\"http://www.sitepoint.com\">Click here</a>";
+
+2. random int generation syntax : rand(start_num, end_num)
+
+3.  A variable can be thought of as a name given to an imaginary box into which any value may be placed: all variable names in PHP begin with a dollar sign '$': Eg -> $testVariable = 3;
+	- loosely typed language... variable can contain any type of data => number, text of string, some other kind of value etc.
