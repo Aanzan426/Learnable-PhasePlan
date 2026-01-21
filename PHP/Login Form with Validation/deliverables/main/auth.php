@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	include __DIR__ '\..\branch\data.php';
+	include __DIR__ .'/../branch/data.php';
 
 	if($_SERVER["REQUEST_METHOD"]!= "POST"){
 		header("Location: login.html");
@@ -11,11 +11,10 @@
 	$username = trim($_POST["username"] ?? "");
 	$password = trim($_POST["password"] ?? "");
 	
-	if (isset($_Data[$username] && $_Data[$password]){
+	if (isset($_Data[$username]) && $_Data[$username] === $password){
 		$_SESSION ['logged_in'] = true;
 		$_SESSION ['username'] = $username;
 
-		echo "Welcome 'O Great Leader, Zatch!";
 		header('Location: dash.php');
 		exit;
 	}else{
