@@ -1,0 +1,172 @@
+/* ================================
+   BASIC RESET + PAGE DEFAULTS
+   ================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* ================================
+   HEADER + NAVIGATION
+   ================================ */
+
+header {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* helps on small screens */
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #e9f4ff;
+}
+
+/* ================================
+   SECTION LAYOUT
+   ================================ */
+
+section {
+    background-color: white;
+    padding: 18px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+/* ================================
+   FORMS + INPUTS
+   ================================ */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    max-width: 380px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0077cc;
+}
+
+/* ================================
+   BUTTONS
+   ================================ */
+
+button {
+    width: fit-content;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* ================================
+   VIEW TABLE LINK
+   ================================ */
+
+section a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   TABLE STYLING (for View)
+   ================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f0f4f8;
+}
+
+/* ================================
+   RESPONSIVE (MOBILE FRIENDLY)
+   ================================ */
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        max-width: 100%;
+    }
+}
