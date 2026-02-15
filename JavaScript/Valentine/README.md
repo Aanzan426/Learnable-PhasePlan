@@ -85,3 +85,28 @@ Redirects to PHP confirmation page when YES is pressed.
 ---
 
 
+### Change Messages
+Modify alert texts and forced screen text in `script.js`.
+
+---
+
+## 🎯 Purpose of the Project
+This project demonstrates:
+- Event-driven programming
+- DOM manipulation
+- User behavior handling
+- Interactive UX design
+- Emotional interface engineering
+
+---
+
+## ⚠️ Disclaimer
+This project is intended for personal and entertainment use only.
+Use responsibly… outcomes not guaranteed 😄
+
+---
+
+## 👨‍💻 Author
+Made with sleep deprivation and emotional damage.
+
+
