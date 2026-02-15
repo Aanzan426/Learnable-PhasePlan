@@ -1,1 +1,34 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Love...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="text"></h1>
+
+    <button id="enterBtn" onclick="start()">Enter</button>
+
+    <div id="question" class="hidden">
+        <h2>Who am I?</h2>
+        <button onclick="correct()">Someone who likes you a lot</button>
+        <button onclick="wrong()">A friend</button>
+        <button onclick="wrong()">An idiot</button>
+        <button onclick="wrong()">A problem</button>
+    </div>
+
+    <div id="proposal" class="hidden">
+	<p id="timer" style="font-size:16px; opacity:0.8;"></p>
+        <h1>Ms. Sariah Fletcher... Will you be my Valentine?</h1>
+        <button id="yes" onclick="yes()">YES ❤️</button>
+        <button id="no">NO 💀</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
