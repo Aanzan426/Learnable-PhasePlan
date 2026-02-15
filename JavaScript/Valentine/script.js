@@ -1,4 +1,4 @@
-const startDate = new Date("2025-07-10 21:04:00"); 
+const startDate = new Date("YYYY-MM-DD HH:MM:SS"); 
 let forcedMode = false;
 
 
