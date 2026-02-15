@@ -1,0 +1,73 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    background: #0f0f14;
+    color: white;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* centers content vertically on phone */
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* BIG TITLE TEXT */
+h1{
+    font-size: clamp(32px, 8vw, 64px);
+    margin-bottom: 20px;
+}
+
+/* question text */
+h2{
+    font-size: clamp(22px, 6vw, 40px);
+}
+
+/* timer text */
+#timer{
+    font-size: clamp(16px, 4.5vw, 22px);
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+
+/* buttons */
+button{
+    width: min(90%, 320px);
+    padding: 18px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 14px;
+    font-size: clamp(18px, 5vw, 24px);
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.2s ease;
+}
+
+/* tap feedback (important for phones) */
+button:active{
+    transform: scale(0.95);
+}
+
+#yes{
+    background: #ff4d6d;
+    color: white;
+    box-shadow: 0 0 20px rgba(255,77,109,0.5);
+}
+
+#no{
+    background: #444;
+    color: white;
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
